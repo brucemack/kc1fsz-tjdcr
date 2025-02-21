@@ -4,6 +4,15 @@
 	(generator_version "8.0")
 	(uuid "4bc8412d-664e-407f-b5c0-6e2a521b9b3b")
 	(paper "USLetter")
+	(title_block
+		(title "Thomas Jefferson Direct Conversion Receiver")
+		(date "2025-02-21")
+		(rev "1")
+		(company "Circuit Design by N2CQR and KK4DAS")
+		(comment 1 "PCB By KC1FSZ")
+		(comment 2 "Copyright (C) Bruce MacKinnon, 2025")
+		(comment 3 "NOT FOR COMMERCIAL USE WITHOUT PERMISSION")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
@@ -4013,6 +4022,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 38.1) (xy 223.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba48bb0-77e5-4ef3-be42-2da3f98d150d")
+	)
+	(wire
+		(pts
 			(xy 210.82 38.1) (xy 214.63 38.1)
 		)
 		(stroke
@@ -4895,6 +4914,108 @@
 		)
 		(uuid c3e84b3d-a181-4cb9-a738-71d1e17bf4e1)
 	)
+	(rectangle
+		(start 40.005 24.765)
+		(end 240.03 71.12)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ed8d78d6-ef7f-46ce-af9d-f7b606680329)
+	)
+	(text "Audio Diplexer"
+		(exclude_from_sim no)
+		(at 221.742 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18d5c640-68a6-4cf0-b67f-4fcd4744052f")
+	)
+	(text "40m Band Pass Filter"
+		(exclude_from_sim no)
+		(at 90.424 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f1e1e5c-5805-4183-ac4e-dbe48c8fa8c7")
+	)
+	(text "LO option: install jumper across J4 for \ninternal LO, or connect external LO to \npin 1 and leave pin 2 open."
+		(exclude_from_sim no)
+		(at 68.072 182.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3453613d-909d-4f15-b05a-c350fafe29fc")
+	)
+	(text "J2 connection to PTO inductor\n(19 turns #28 on 3D printed form)"
+		(exclude_from_sim no)
+		(at 32.512 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "433a393e-8bb6-49d8-b953-33665d06ee96")
+	)
+	(text "Colpitts PTO/VFO"
+		(exclude_from_sim no)
+		(at 55.88 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e1625da-249a-46ef-8a69-3eab65582c66")
+	)
+	(text "Connection to \nexternal gain\npot."
+		(exclude_from_sim no)
+		(at 184.658 134.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51e89333-3493-4f8f-900d-9661776ec731")
+	)
+	(text "Double Balanced Mixer"
+		(exclude_from_sim no)
+		(at 161.29 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85b221ee-4021-4119-a7d7-1906164ebe7f")
+	)
+	(text "Audio Power Amplifier"
+		(exclude_from_sim no)
+		(at 172.466 94.488 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4cc2ff8-397d-45d4-857b-ae16772ca142")
+	)
+	(text "TO-92 case for better Pd"
+		(exclude_from_sim no)
+		(at 250.19 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec23a8b5-3eac-4022-aa10-4717802bf3bf")
+	)
 	(label "Speaker Out"
 		(at 257.81 102.87 90)
 		(fields_autoplaced yes)
@@ -5688,7 +5809,7 @@
 			)
 		)
 		(property "Value" "470u (Size 2917/7343)"
-			(at 241.046 126.238 0)
+			(at 241.808 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,6 +7153,72 @@
 			(project "tjdcr-1"
 				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33164c01-0004-44af-8d07-497afac53454")
+		(property "Reference" "#PWR039"
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73691f8f-dd8c-4949-812d-e1821cf9b667")
+		)
+		(instances
+			(project "tjdcr-1"
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11699,7 +11886,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.33u"
 			(at 127.0063 116.84 90)
 			(effects
 				(font
@@ -12092,6 +12279,76 @@
 			(project ""
 				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 223.52 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f26dedae-ab68-406e-a169-69b04da875c1")
+		(property "Reference" "C20"
+			(at 226.06 44.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47u"
+			(at 226.06 46.9962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ab3803-20a9-44ae-ab5e-1fcdc2fc4110")
+		)
+		(pin "2"
+			(uuid "9dc2a33a-0f2d-4ecf-b704-3cf66428372b")
+		)
+		(instances
+			(project "tjdcr-1"
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "C20")
 					(unit 1)
 				)
 			)
