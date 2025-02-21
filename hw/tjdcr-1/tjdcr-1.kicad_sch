@@ -172,6 +172,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -2175,6 +2277,278 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:2N3904"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3904_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3904_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:MMBT3904"
 			(pin_names
 				(offset 0) hide)
@@ -3012,6 +3386,12 @@
 		(uuid "8c362ae3-215d-4dd1-bdd7-78f1de677c36")
 	)
 	(junction
+		(at 234.95 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94c718e2-2c03-4d69-83e6-d4cef18690dd")
+	)
+	(junction
 		(at 224.79 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3028,6 +3408,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "984c59d4-e74b-4cc8-bc4c-b45b7de82c0c")
+	)
+	(junction
+		(at 196.85 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7b87ed9-6913-4648-a1d0-23dc40e48185")
 	)
 	(junction
 		(at 158.75 38.1)
@@ -3078,10 +3464,22 @@
 		(uuid "cc73425a-3fa7-48ee-a5cd-44085d53b83a")
 	)
 	(junction
+		(at 223.52 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d56e92a8-f4fa-473f-b516-7bc3aee6b93a")
+	)
+	(junction
 		(at 97.79 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9769543-98ac-47ef-ba57-3d02ce4376e6")
+	)
+	(junction
+		(at 214.63 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da2b38c3-e400-4ae6-9b2d-8b368d0f5509")
 	)
 	(wire
 		(pts
@@ -3182,6 +3580,16 @@
 			(type default)
 		)
 		(uuid "10267988-4861-4ca7-8ba5-ee26545c2b4f")
+	)
+	(wire
+		(pts
+			(xy 196.85 40.64) (xy 196.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117aa641-6904-406b-91d3-b39a4c919899")
 	)
 	(wire
 		(pts
@@ -3445,6 +3853,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 102.87) (xy 257.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ccd535-0430-498f-8a36-6f90d6edd8c6")
+	)
+	(wire
+		(pts
 			(xy 144.78 128.27) (xy 154.94 128.27)
 		)
 		(stroke
@@ -3562,6 +3980,26 @@
 			(type default)
 		)
 		(uuid "573a4d57-8805-4436-b746-bfbc04077642")
+	)
+	(wire
+		(pts
+			(xy 214.63 115.57) (xy 217.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598678e7-67df-4b5b-b66b-8b4232a7c90d")
+	)
+	(wire
+		(pts
+			(xy 223.52 34.29) (xy 223.52 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c7deb6-f867-40f9-886c-7ba2dff679dc")
 	)
 	(wire
 		(pts
@@ -3775,7 +4213,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 115.57) (xy 217.17 115.57)
+			(xy 204.47 115.57) (xy 214.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3865,7 +4303,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 43.18) (xy 198.12 43.18)
+			(xy 194.31 43.18) (xy 196.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4195,6 +4633,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 43.18) (xy 198.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35fe831-e9f3-4c2b-9f98-9b9149820b2f")
+	)
+	(wire
+		(pts
 			(xy 85.09 105.41) (xy 88.9 105.41)
 		)
 		(stroke
@@ -4242,6 +4690,16 @@
 			(type default)
 		)
 		(uuid "d98f0da1-594e-42b0-b0ca-1d115e7d12ae")
+	)
+	(wire
+		(pts
+			(xy 223.52 38.1) (xy 226.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9a2ff5-4ecf-4377-9fc4-445bc4b861f3")
 	)
 	(wire
 		(pts
@@ -4395,7 +4853,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 38.1) (xy 226.06 38.1)
+			(xy 219.71 38.1) (xy 223.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4414,6 +4872,18 @@
 		(uuid "fe371cf7-9bd5-49a9-bbdd-afbea4156945")
 	)
 	(rectangle
+		(start 111.76 78.74)
+		(end 266.065 149.86)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 391b731b-a84f-4fb4-b1cc-d71204e51b63)
+	)
+	(rectangle
 		(start 14.605 93.98)
 		(end 109.22 149.225)
 		(stroke
@@ -4424,6 +4894,17 @@
 			(type none)
 		)
 		(uuid c3e84b3d-a181-4cb9-a738-71d1e17bf4e1)
+	)
+	(label "Speaker Out"
+		(at 257.81 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be98a0a5-488d-4a55-97e0-529004318887")
 	)
 	(global_label "LO_I"
 		(shape input)
@@ -4778,6 +5259,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 109.22 172.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e7b4b81-fd8c-4762-a923-5075a5e12f6b")
+		(property "Reference" "H2"
+			(at 111.76 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 111.76 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "tjdcr-1"
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 24.13 165.1 0)
 		(unit 1)
@@ -5049,6 +5594,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 232.41 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17a2c17a-359a-4500-ad0a-4d9bfcad84a4")
+		(property "Reference" "Q5"
+			(at 237.49 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 237.49 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 237.49 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 232.41 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 232.41 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce13c7d8-2f7f-44fd-a081-6179c19732df")
+		)
+		(pin "1"
+			(uuid "3d4995fe-19da-40b1-83e2-00a76749d83b")
+		)
+		(pin "3"
+			(uuid "a317a1d5-6c63-45e2-98fc-94c2f2054423")
+		)
+		(instances
+			(project ""
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 245.11 133.35 180)
 		(unit 1)
@@ -5067,7 +5688,7 @@
 			)
 		)
 		(property "Value" "470u (Size 2917/7343)"
-			(at 237.744 143.764 0)
+			(at 241.046 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5897,7 @@
 			)
 		)
 		(property "Value" "470u (Size 2917/7343)"
-			(at 147.574 143.764 0)
+			(at 147.828 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +6042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
 			(at 49.53 43.18 0)
 			(effects
 				(font
@@ -5869,6 +6490,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 214.63 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8b38dc-3fbe-42a3-8149-0585e7ce8b7b")
+		(property "Reference" "TP3"
+			(at 217.17 110.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 217.17 113.5379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 214.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0d14b2a-4269-4167-80ba-7313a85523ff")
+		)
+		(instances
+			(project ""
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 135.89 0)
 		(unit 1)
@@ -6158,7 +6846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "220"
 			(at 171.45 134.6199 0)
 			(effects
 				(font
@@ -6548,6 +7236,70 @@
 			(project "tjdcr-1"
 				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 109.22 167.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac9ed93-304c-4a12-adc2-08639b7bde16")
+		(property "Reference" "H1"
+			(at 111.76 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 111.76 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7055,7 +7807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 180.34 123.19 0)
 			(effects
 				(font
@@ -7095,6 +7847,70 @@
 			(project ""
 				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 109.22 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d122cd-7a6a-4a3a-b807-b7a43ff880a6")
+		(property "Reference" "H4"
+			(at 111.76 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 111.76 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "tjdcr-1"
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7934,7 +8750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bruce-footprints:CheapAudioTransformer"
 			(at 246.38 107.95 0)
 			(effects
 				(font
@@ -7984,7 +8800,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 105.41 0)
+		(at 257.81 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7993,7 +8809,7 @@
 		(fields_autoplaced yes)
 		(uuid "76744aaf-7cff-4c08-8366-37b53b0c2c87")
 		(property "Reference" "#PWR038"
-			(at 256.54 111.76 0)
+			(at 257.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,7 +8818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 110.49 0)
+			(at 257.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +8826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 105.41 0)
+			(at 257.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +8835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 105.41 0)
+			(at 257.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +8844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 105.41 0)
+			(at 257.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,82 +9892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MMBT3904")
-		(at 232.41 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f4f7ea2-c170-45d2-a77f-e108f6a4425d")
-		(property "Reference" "Q5"
-			(at 237.49 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904"
-			(at 237.49 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 237.49 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
-			(at 232.41 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 232.41 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a1939a04-57cd-41f8-ae0c-37ba67f6791c")
-		)
-		(pin "2"
-			(uuid "44339df0-0177-4a7b-83fc-3a92b9648030")
-		)
-		(pin "1"
-			(uuid "f4705f87-3b64-4357-a4fd-705a486ca705")
-		)
-		(instances
-			(project "tjdcr-1"
-				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 214.63 135.89 0)
 		(unit 1)
@@ -9565,6 +10305,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abca8df4-c747-4617-9eb5-f46153658138")
+		(property "Reference" "TP2"
+			(at 226.06 29.7179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 226.06 32.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 228.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2c75888-eb90-4713-a397-96ffe187173a")
+		)
+		(instances
+			(project ""
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 21.59 132.08 0)
 		(unit 1)
@@ -9776,7 +10583,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 261.62 102.87 0)
+		(at 262.89 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9784,14 +10591,14 @@
 		(dnp no)
 		(uuid "b25ac696-b796-4f0e-8574-90818139c01b")
 		(property "Reference" "J6"
-			(at 261.62 96.52 0)
+			(at 262.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Power"
+		(property "Value" "Speaker"
 			(at 261.62 99.06 0)
 			(effects
 				(font
@@ -9800,7 +10607,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 261.62 102.87 0)
+			(at 262.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +10616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 102.87 0)
+			(at 262.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +10625,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 261.62 102.87 0)
+			(at 262.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,6 +10713,137 @@
 			(project "tjdcr-1"
 				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 109.22 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8e57049-97d1-43ca-b487-433c287c72d6")
+		(property "Reference" "H3"
+			(at 111.76 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 111.76 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 109.22 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 109.22 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "tjdcr-1"
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 234.95 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bedf9295-00b9-4d5d-bc7f-04a020992a88")
+		(property "Reference" "TP4"
+			(at 237.49 108.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 237.49 110.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 234.95 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "599e6af0-613b-4c04-84e1-9dc2a9012c1f")
+		)
+		(instances
+			(project ""
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10830,7 +11768,7 @@
 			)
 		)
 		(property "Value" "470u (Size 2917/7343)"
-			(at 207.264 143.764 0)
+			(at 206.502 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,6 +11955,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 196.85 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee84a9d8-d916-41ce-a6f5-16d47fa4b1d2")
+		(property "Reference" "TP1"
+			(at 199.39 36.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 199.39 38.6079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 196.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06da67c9-6997-4339-a42c-43d23cd147d7")
+		)
+		(instances
+			(project ""
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
 		(at 50.8 116.84 0)
 		(unit 1)
@@ -11165,7 +12170,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4bdf6a7-d85e-4b91-9bc8-005d1ed33722")
 		(property "Reference" "#PWR029"
 			(at 175.26 132.08 0)
@@ -11177,7 +12181,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 130.81 0)
+			(at 177.038 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
