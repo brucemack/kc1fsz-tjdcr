@@ -3780,6 +3780,12 @@
 		(uuid "6c2a5a1a-d723-4ff7-a6a3-560acdb969e8")
 	)
 	(junction
+		(at 127 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7356c9ef-4157-4a74-ace1-73fbcd441b4d")
+	)
+	(junction
 		(at 210.82 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3996,6 +4002,16 @@
 			(type default)
 		)
 		(uuid "080209ec-d55b-4620-9a87-e123427a3548")
+	)
+	(wire
+		(pts
+			(xy 124.46 43.18) (xy 127 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8596a4-c8df-4f25-ab9b-3a4ecf168a94")
 	)
 	(wire
 		(pts
@@ -5139,16 +5155,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 129.54 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be46dbce-95ac-4299-974c-6f18da3a0c62")
-	)
-	(wire
-		(pts
 			(xy 133.35 102.87) (xy 144.78 102.87)
 		)
 		(stroke
@@ -5216,6 +5222,16 @@
 			(type default)
 		)
 		(uuid "d55a7da2-3d34-42d6-ba00-f68e492ff79b")
+	)
+	(wire
+		(pts
+			(xy 127 43.18) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d3588d-8fca-4fc9-b907-b76f38082ad3")
 	)
 	(wire
 		(pts
@@ -5462,8 +5478,8 @@
 		(uuid c3e84b3d-a181-4cb9-a738-71d1e17bf4e1)
 	)
 	(rectangle
-		(start 40.005 24.765)
-		(end 240.03 71.12)
+		(start 29.845 24.765)
+		(end 125.73 71.12)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5472,6 +5488,18 @@
 			(type none)
 		)
 		(uuid ed8d78d6-ef7f-46ce-af9d-f7b606680329)
+	)
+	(rectangle
+		(start 126.365 24.765)
+		(end 243.84 71.12)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fe06d691-87f3-4ceb-a2d0-df4a196d4b3a)
 	)
 	(text "Audio Diplexer"
 		(exclude_from_sim no)
@@ -8909,6 +8937,73 @@
 			(project ""
 				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54c3ea64-51fe-462b-8cf9-4b0340892c8b")
+		(property "Reference" "TP5"
+			(at 129.54 38.6079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.54 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 132.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f25590a-bf0e-42de-a9c5-1f439f3cb438")
+		)
+		(instances
+			(project "tjdcr-1"
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "TP5")
 					(unit 1)
 				)
 			)

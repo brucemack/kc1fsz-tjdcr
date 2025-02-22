@@ -17,7 +17,16 @@ I could come up with.
 ![System Picture](docs/pcb-1.png)
 
 Once the testing is complete I will make the PCB/BOM available for anyone who wants
-to test it.
+to try it.
+
+Modification Notes
+==================
+
+* I am using Schottky diodes since those were in the original TJDCR rig. I noticed
+a later change to the 1N4148 switching diode, but I have not made that change yet.
+* Note the "LO Option" connector on the board.  Normally the two pins on this connector
+should be jumpered together, but those wanting to inject external VFOs may want to 
+open this connection and attach the external frequency source to pin 1. 
 
 Tools
 =====
