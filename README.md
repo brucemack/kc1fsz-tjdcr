@@ -22,9 +22,13 @@ to try it.
 Modification Notes
 ==================
 
+* IMPORTANT: My part reference numbers don't match those in the official schematic.
+Sorry!!
+* I am using T37-6 toroids in a few places where Bill/Dean used T50-6. 
 * I am using Schottky diodes since those were in the original TJDCR rig. I noticed
 a later change to the 1N4148 switching diode, but I have not made that change yet.
-* Note the "LO Option" connector on the board.  Normally the two pins on this connector
+* Note the "LO Option" connector on the board, which is not in the original 
+schematic.  Normally the two pins on this connector
 should be jumpered together, but those wanting to inject external VFOs may want to 
 open this connection and attach the external frequency source to pin 1. 
 

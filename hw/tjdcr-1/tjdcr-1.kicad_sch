@@ -5501,6 +5501,16 @@
 		)
 		(uuid fe06d691-87f3-4ceb-a2d0-df4a196d4b3a)
 	)
+	(text "Trimmer: EW Electronics GKG30086-05\n(6.5-30pF)\n"
+		(exclude_from_sim no)
+		(at 85.344 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "146707fb-0b59-496c-93ad-7a50dbd99443")
+	)
 	(text "Audio Diplexer"
 		(exclude_from_sim no)
 		(at 221.742 64.008 0)
@@ -5513,10 +5523,10 @@
 	)
 	(text "40m Band Pass Filter"
 		(exclude_from_sim no)
-		(at 90.424 34.036 0)
+		(at 81.28 27.686 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.778 1.778)
 			)
 		)
 		(uuid "2f1e1e5c-5805-4183-ac4e-dbe48c8fa8c7")
@@ -5540,6 +5550,16 @@
 			)
 		)
 		(uuid "433a393e-8bb6-49d8-b953-33665d06ee96")
+	)
+	(text "Use NP0 caps for C1/C2/C3"
+		(exclude_from_sim no)
+		(at 68.834 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4c2b91de-5128-4893-89e3-7ba45eab9f07")
 	)
 	(text "Colpitts PTO/VFO"
 		(exclude_from_sim no)
@@ -9164,7 +9184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "160p"
+		(property "Value" "150p"
 			(at 71.12 48.2662 0)
 			(effects
 				(font
@@ -11348,7 +11368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "160p"
+		(property "Value" "150p"
 			(at 100.33 48.2662 0)
 			(effects
 				(font
