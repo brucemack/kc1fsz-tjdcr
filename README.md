@@ -19,11 +19,11 @@ components (mostly 0805), and the most compact layout I could come up with.
 
 > [!IMPORTANT]  
 > I know the purists will raise objections, so I would like to emphasize the importance/value
-> of building the TJ-DCR rig from the exact specifications *first* before getting into 
+> of building the TJDCR rig from Bill/Dean's exact specifications *first* before getting into 
 > modifications including (but not limited to) PCBs and SMDs. The main point of the TJDCR
 > project is to learn the process of building from scratch, and using a commercial PCB
-> manufacturer somewhat defeats that purpose. I've built this rig a few times Manhattan/ugly
-> style so I'm trying to do something a bit different here.
+> somewhat defeats that purpose. I've built this rig a few times  (as well as several SSB transceivers) using Manhattan/ugly
+> style so I'm trying to do something a bit different this time.
 
 Once the testing is complete I will make the PCB/BOM available for anyone who wants
 to try it.
@@ -33,8 +33,14 @@ Modification Notes
 
 * IMPORTANT: My part reference numbers don't match those in the official schematic.
 Sorry!!
+* This is a single board, whereas Bill/Dean recommend 4 boards to promote modularity.
+You will note that I've silk-screened borders around the 4 modules on my board to 
+emphasize the modules.
 * I am using T37-6 toroids in a few places where Bill/Dean used T50-6. 
-* I am using Schottky diodes since those were in the original TJDCR rig. I noticed
+* I did not put in a trimmer for the top coupling capacitor in the band-pass filter. I'm 
+comfortable with a cut-and-try approach on that component given how it impacts the shape
+of the filter.
+* I am using Schottky diodes in the mixer since those were in the original TJDCR rig. I noticed
 a later change to the 1N4148 switching diode, but I have not made that change yet.
 * Note the "LO Option" connector on the board, which is not in the original 
 schematic.  Normally the two pins on this connector
