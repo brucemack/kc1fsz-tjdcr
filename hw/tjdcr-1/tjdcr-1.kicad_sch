@@ -3222,6 +3222,265 @@
 				)
 			)
 		)
+		(symbol "symbol-library-1:42TL013-RC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at 11.938 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "42TL013-RC"
+				(at 11.938 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "bruce-footprints:42TL013RC"
+				(at 41.91 -87.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 41.91 -187.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Transformers / Signal Transformers XFMR 1KCT/8CT"
+				(at 13.208 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "12.7"
+				(at 41.91 -387.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "42TL013-RC"
+				(at 41.91 -487.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Xicon/42TL013-RC?qs=h3Xc2LqAeakHFGpwpGuhuA%3D%3D"
+				(at 41.91 -587.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Xicon"
+				(at 41.91 -687.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "42TL013-RC"
+				(at 41.91 -787.3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "42TL013-RC_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 15.24 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 6.35 270)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -13.97 90)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "symbol-library-1:MMBFJ310"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3670,6 +3929,14 @@
 		(color 0 0 0 0)
 		(uuid "da2b38c3-e400-4ae6-9b2d-8b368d0f5509")
 	)
+	(no_connect
+		(at 236.22 105.41)
+		(uuid "002fa4bc-dba7-4618-8ca8-452161198cd4")
+	)
+	(no_connect
+		(at 256.54 105.41)
+		(uuid "384db6a2-c0db-4c9b-98f5-d7b7692e3133")
+	)
 	(wire
 		(pts
 			(xy 40.64 116.84) (xy 45.72 116.84)
@@ -3882,6 +4149,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 96.52) (xy 246.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae738cc-9e68-4625-9d5d-e42b78b150e1")
+	)
+	(wire
+		(pts
 			(xy 175.26 123.19) (xy 172.72 123.19)
 		)
 		(stroke
@@ -3909,6 +4186,16 @@
 			(type default)
 		)
 		(uuid "2e99079b-cd28-4db7-9a8e-cc38c56b9fd5")
+	)
+	(wire
+		(pts
+			(xy 256.54 107.95) (xy 256.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f150a85-ea54-4f5f-8882-6ea303282f50")
 	)
 	(wire
 		(pts
@@ -4759,6 +5046,16 @@
 			(type default)
 		)
 		(uuid "b63a2d0f-1daa-4ddd-8bb9-becf1a6fb4f5")
+	)
+	(wire
+		(pts
+			(xy 236.22 107.95) (xy 236.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71057ed-2ba1-466e-94c8-812ddb42b12c")
 	)
 	(wire
 		(pts
@@ -5834,6 +6131,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 240.03 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12196030-8674-4a4b-82aa-fc61c9545d8f")
+		(property "Reference" "#PWR044"
+			(at 240.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.744 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "266fdd46-95cf-4385-99c3-a7548d20e17c")
+		)
+		(instances
+			(project "tjdcr-1"
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 53.34 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6413,7 +6776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 36.83 43.18 0)
 			(effects
 				(font
@@ -9163,6 +9526,145 @@
 		)
 	)
 	(symbol
+		(lib_id "symbol-library-1:42TL013-RC")
+		(at 236.22 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6acc22d0-3f7b-4f7a-8306-2951dbb38323")
+		(property "Reference" "T5"
+			(at 247.396 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "42TL013-RC"
+			(at 239.522 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bruce-footprints:42TL013RC"
+			(at 278.13 190.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 290.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Transformers / Signal Transformers XFMR 1KCT/8CT"
+			(at 249.428 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.7"
+			(at 278.13 490.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "42TL013-RC"
+			(at 278.13 590.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Xicon/42TL013-RC?qs=h3Xc2LqAeakHFGpwpGuhuA%3D%3D"
+			(at 278.13 690.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Xicon"
+			(at 278.13 790.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "42TL013-RC"
+			(at 278.13 890.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "73ec61d7-13f5-4280-8910-8f0007ecc855")
+		)
+		(pin "MH1"
+			(uuid "034ab1d0-247f-4a75-bade-b36b6c81685b")
+		)
+		(pin "6"
+			(uuid "bc53a86b-d5b3-4d16-8933-e07dabc21c75")
+		)
+		(pin "1"
+			(uuid "cfaba03d-1f65-4798-852e-a1df38ae1a08")
+		)
+		(pin "MH2"
+			(uuid "ea2a97f9-363e-4996-90e8-b7b9e977bf64")
+		)
+		(pin "2"
+			(uuid "077b53d5-db92-447e-b008-d82a289dd532")
+		)
+		(pin "4"
+			(uuid "b898056e-1255-4ea8-a69e-9338e01a4fec")
+		)
+		(pin "5"
+			(uuid "dc7a681f-a400-4064-9ede-cc1f74bc544c")
+		)
+		(instances
+			(project ""
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "T5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 111.76 0)
 		(unit 1)
@@ -9228,80 +9730,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Transformer_1P_1S")
-		(at 246.38 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e5941eb-4c4c-45a0-b03c-ba683b8dcf39")
-		(property "Reference" "T5"
-			(at 246.3927 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Transformer_1P_1S"
-			(at 246.3927 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bruce-footprints:CheapAudioTransformer"
-			(at 246.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Transformer, single primary, single secondary"
-			(at 246.38 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7eb33c2-ec25-43e4-b990-828943f84a38")
-		)
-		(pin "4"
-			(uuid "39cfc463-3411-462a-9f16-c1d7d89c469d")
-		)
-		(pin "1"
-			(uuid "b1b519bf-84f8-4ee3-af90-379e629d9c24")
-		)
-		(pin "3"
-			(uuid "3e2b1f4f-fcd6-436d-b17f-b38abdb53538")
-		)
-		(instances
-			(project ""
-				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
-					(reference "T5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 105.41 0)
 		(unit 1)
@@ -9309,7 +9737,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "76744aaf-7cff-4c08-8366-37b53b0c2c87")
 		(property "Reference" "#PWR038"
 			(at 257.81 111.76 0)
@@ -9321,7 +9748,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 110.49 0)
+			(at 259.588 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,10 +11922,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bedf9295-00b9-4d5d-bc7f-04a020992a88")
 		(property "Reference" "TP4"
-			(at 237.49 108.4579 0)
+			(at 230.632 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11507,12 +11933,13 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 237.49 110.9979 0)
+			(at 230.886 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
@@ -13210,6 +13637,72 @@
 			(project ""
 				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fce76aff-e5ba-46ee-a84c-21e8f9710544")
+		(property "Reference" "#PWR043"
+			(at 246.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 249.936 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3647193-9c12-4252-b261-d8fc50ba7cfc")
+		)
+		(instances
+			(project ""
+				(path "/4bc8412d-664e-407f-b5c0-6e2a521b9b3b"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
