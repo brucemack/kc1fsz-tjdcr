@@ -3822,6 +3822,12 @@
 		(uuid "88678751-05b5-4bc8-913e-9ea4c6a4c962")
 	)
 	(junction
+		(at 25.4 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88a5fe18-7ad5-4653-9ef8-e9cf813f6919")
+	)
+	(junction
 		(at 133.35 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4815,6 +4821,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 129.54) (xy 21.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934aef28-454d-4f9e-8340-ffe44ae031da")
+	)
+	(wire
+		(pts
 			(xy 156.21 106.68) (xy 156.21 102.87)
 		)
 		(stroke
@@ -5225,6 +5241,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 116.84) (xy 25.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d727da0b-d505-438a-aa32-134ab548fcc0")
+	)
+	(wire
+		(pts
 			(xy 127 43.18) (xy 129.54 43.18)
 		)
 		(stroke
@@ -5272,16 +5298,6 @@
 			(type default)
 		)
 		(uuid "ddc370a2-fa7d-468e-b44a-6825fcab5512")
-	)
-	(wire
-		(pts
-			(xy 21.59 129.54) (xy 25.4 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df46fdb1-56d7-4029-b2b4-869341869087")
 	)
 	(wire
 		(pts
@@ -5521,6 +5537,16 @@
 		)
 		(uuid "18d5c640-68a6-4cf0-b67f-4fcd4744052f")
 	)
+	(text "MLZ2012N101LT000"
+		(exclude_from_sim no)
+		(at 216.408 31.242 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "24860329-f0b0-487f-aea8-6701b1457835")
+	)
 	(text "40m Band Pass Filter"
 		(exclude_from_sim no)
 		(at 81.28 27.686 0)
@@ -5590,6 +5616,16 @@
 			)
 		)
 		(uuid "85b221ee-4021-4119-a7d7-1906164ebe7f")
+	)
+	(text "Use NP0 caps!"
+		(exclude_from_sim no)
+		(at 32.766 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca241986-8072-47f3-a212-5baf6d5551c6")
 	)
 	(text "Audio Power Amplifier"
 		(exclude_from_sim no)
