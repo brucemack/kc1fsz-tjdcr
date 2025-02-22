@@ -10,11 +10,20 @@ encourage you to watch Dean's tutorial series on YouTube.
 
 I built this rig as part of the "Direct Conversion Challenge" issued by Bill and Dean. As
 stipulated by Bill/Dean, I am resisting all temptations to modify/improve the original 
-circuit. This is a completely *pure* TJ-DCR, but using modern construction techniques 
-including a commercial PCB, SMD components (mostly 0805), and the most compact layout
-I could come up with.
+circuit. However, technically speaking this not a completely *pure* TJ-DCR since there 
+are a few departures from the recommended construction techniques and part selection. 
+Importantly, I am using modern construction techniques including a commercial PCB (single board), SMD 
+components (mostly 0805), and the most compact layout I could come up with.
 
 ![System Picture](docs/pcb-1.png)
+
+> [!IMPORTANT]  
+> I know the purists will raise objections, so I would like to emphasize the importance/value
+> of building the TJ-DCR rig from the exact specifications *first* before getting into 
+> modifications including (but not limited to) PCBs and SMDs. The main point of the TJDCR
+> project is to learn the process of building from scratch, and using a commercial PCB
+> manufacturer somewhat defeats that purpose. I've built this rig a few times Manhattan/ugly
+> style so I'm trying to do something a bit different here.
 
 Once the testing is complete I will make the PCB/BOM available for anyone who wants
 to try it.
