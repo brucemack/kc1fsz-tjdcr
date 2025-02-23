@@ -10,8 +10,8 @@ encourage you to watch Dean's superb tutorial series on YouTube.
 
 I built this rig as part of the "Direct Conversion Challenge" issued by Bill and Dean. As
 stipulated by Bill/Dean, I am resisting all temptations to modify/improve the original 
-circuit. However, technically speaking this not a completely *pure* TJ-DCR since there 
-are a few departures from the recommended construction techniques and part selection. 
+circuit. However, technically speaking this is not a completely *pure* TJDCR since there 
+are a few departures from the recommended construction techniques and part selections. 
 Importantly, I am using modern construction techniques including a commercial PCB (single board), SMD 
 components (mostly 0805), and the most compact layout I could come up with.
 
