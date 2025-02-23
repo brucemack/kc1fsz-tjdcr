@@ -33,6 +33,9 @@ components (mostly 0805), and the most compact layout I could come up with.
 Once the testing is complete I will make the PCB/BOM available for anyone who wants
 to try it in this style.
 
+My [KiCAD schematic is here](https://github.com/brucemack/kc1fsz-tjdcr/blob/main/hw/tjdcr-1/plots/tjdcr-1.pdf) if you want to have a look. I've tried to use the official parts reference numbers
+are much as possible.
+
 Modification Notes
 ==================
 
