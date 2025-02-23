@@ -25,16 +25,16 @@ components (mostly 0805), and the most compact layout I could come up with.
 > fabricated PCB
 > somewhat defeats that purpose. I've built DCR rigs a few times (as well as several SSB transceivers) using traditional Manhattan/Ugly 
 > style so I'm trying to do something a bit different this time. That being said, we are 
-> moving into a new world where many parts that of interest to radio homebrewers are not 
-> available in through-hole packages, so I would recommend that everyone get over any 
+> moving into a new world where many parts of interest to radio homebrewers are not 
+> available in through-hole packages. I would recommend that everyone get over any 
 > fears of surface-mount parts, buy a good set of magnifying glasses, and start practicing 
 > SMD-homebrew.
 
 Once the testing is complete I will make the PCB/BOM available for anyone who wants
 to try it in this style.
 
-My [KiCAD schematic is here](https://github.com/brucemack/kc1fsz-tjdcr/blob/main/hw/tjdcr-1/plots/tjdcr-1.pdf) if you want to have a look. I've tried to use the official parts reference numbers
-are much as possible.
+My [KiCAD schematic is here](https://github.com/brucemack/kc1fsz-tjdcr/blob/main/hw/tjdcr-1/plots/tjdcr-1.pdf) if you want to have a look. I've tried to use the official part reference numbers
+as much as possible.
 
 Modification Notes
 ==================
