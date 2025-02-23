@@ -21,9 +21,14 @@ components (mostly 0805), and the most compact layout I could come up with.
 > I know the purists will raise objections, so I would like to emphasize the importance/value
 > of building the TJDCR rig from Bill/Dean's exact specifications *first* before getting into 
 > modifications including (but not limited to) PCBs and SMDs. The main point of the TJDCR
-> project is to learn the process of building from scratch, and using a commercial PCB
+> project is to learn the process of building from scratch, and using a commercially
+> fabricated PCB
 > somewhat defeats that purpose. I've built DCR rigs a few times (as well as several SSB transceivers) using traditional Manhattan/Ugly 
-> style so I'm trying to do something a bit different this time.
+> style so I'm trying to do something a bit different this time. That being said, we are 
+> moving into a new world where many parts that of interest to radio homebrewers are not 
+> available in through-hole packages, so I would recommend that everyone get over any 
+> fears of surface-mount parts, buy a good set of magnifying glasses, and start practicing 
+> SMD-homebrew.
 
 Once the testing is complete I will make the PCB/BOM available for anyone who wants
 to try it in this style.
