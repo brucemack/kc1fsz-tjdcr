@@ -23,7 +23,7 @@ components (mostly 0805), and the most compact layout I could come up with.
 > modifications including (but not limited to) PCBs and SMDs. The main point of the TJDCR
 > project is to learn the process of building from scratch, and using a commercially
 > fabricated PCB
-> somewhat defeats that purpose. I've built DCR rigs a few times (as well as several SSB transceivers) using traditional Manhattan/Ugly 
+> somewhat defeats that purpose. I've built DCR rigs a few times (as well as several SSB transceivers) using traditional Manhattan/Ugly (aka Beauty) 
 > style so I'm trying to do something a bit different this time. That being said, we are 
 > moving into a new world where many components of value to radio homebrewers are not 
 > available in through-hole packages. I would encourage everyone get over their
