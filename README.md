@@ -64,8 +64,12 @@ a later change to the 1N4148 switching diode, but I have not made that change ye
 * Note the "LO Option" connector on the board, which is not in the original 
 schematic.  Normally the two pins on this connector
 should be jumpered together, but those wanting to inject external VFOs may want to 
-open this connection and attach the external frequency source to pin 1. This point
-is also a good place to connect a frequency counter.
+open this connection and attach the external frequency source to pin 1. This 
+is also a good place to connect a frequency counter or to bridge the VFO to a 
+companion transmitter.
+* There are a few extra parts (C40-C41, R40-R41) in the schematic to support a frequency offset 
+feature needed for a companion CW transmitter. Don't plug in C40 when you 
+are building the stock TJDCR.
 
 Tools
 =====
