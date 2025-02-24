@@ -87,11 +87,12 @@ Areas of Experimentation
 
 * The first iterations are using a 4-layer PCB stackup since that provides the best
 RF performance. As it turns out, there is very little routed on the bottom layer and 
-the +9V routing is pretty simple. I am going to create a 2-layer version to shave a 
-few dollars and see if this makes any difference. The 4-layer boards cost $1.40
-each so we're not talking about big differences here. 2-layer boards are also more easily
+the +9V routing is pretty simple. Plus, at 7 MHz a lot of this probably doesn't matter. I am 
+going to create a 2-layer version of the layout to shave a 
+few dollars and see if this makes any measurable difference. The 4-layer boards cost $1.40
+each so we're not talking about a big difference here. 2-layer boards are also more easily
 made by the fabs in the US. Unfortunately, I've not found an onshore fab that can do 4 layers as
-quickly as the offshore providers, which brings up a number of geopolitical issues. (Side
+quickly/cheaply as the offshore providers, which brings up a number of geopolitical issues. (Side
 note: Thomas Jefferson was a strident global free-trade advocate.)
 * The initial form-factor uses what I call a "half PCB": 100mm x 35mm.
 That's half of the 100mm x 70mm size that cheap copper-clad PCB stock usually comes in.
