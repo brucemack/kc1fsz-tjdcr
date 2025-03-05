@@ -1,7 +1,7 @@
 Overview
 ========
 
-This is a compact PCB implementation of the famous Thomas Jefferson Direct Conversion Receiver
+This is my compact PCB implementation of the famous Thomas Jefferson Direct Conversion Receiver
 designed by Bill Meara (N2CQR) and Dean Souleles (KK4DAS). Full documentation for the 
 original rig [can be found here](https://hackaday.io/project/190327-high-schoolers-build-a-radio-receiver). This project has been discussed at length
 on the excellent Solder Smoke Podcast and in a detailed series of videos that can be found
@@ -10,7 +10,7 @@ encourage you to watch Dean's superb tutorial series on YouTube.
 
 I built this rig as part of the "Direct Conversion Challenge" issued by Bill and Dean. As
 stipulated by Bill/Dean, I am resisting all temptations to modify/improve the original 
-circuit. However, technically speaking this is not a completely *pure* TJDCR since there 
+circuit. However, technically speaking this is not a *pure* TJDCR since there 
 are a few departures from the recommended construction techniques and part selections. 
 Importantly, I am using modern construction techniques including a commercial PCB (single board), SMD 
 components (mostly 0805), and the most compact layout I could come up with.
@@ -18,11 +18,14 @@ components (mostly 0805), and the most compact layout I could come up with.
 A huge thanks to Scott KQ4AOP for creating and sending me the tuning form 
 needed to build the PTO!
 
-Here's the KiCAD rendering of the board:
+Here's the KiCAD rendering of my board.  The part reference numbers are correct
+in this picture:
 
 ![System Picture](docs/pcb-1.png)
 
-Here's what the raw PCB it looks like in real life:
+Here's what the raw PCB it looks like in real life. The part reference numbers were
+incorrect in this version of the board, but the KiCad model was later updated to 
+fix this.
 
 ![System Picture](docs/IMG_1835.jpg)
 
@@ -35,7 +38,7 @@ And the full rig:
 ![System Picture](docs/IMG_1832.jpg)
 
 > [!IMPORTANT]  
-> I know the purists will raise objections, so I would like to emphasize the value
+> I know the purists may raise objections, so I would like to emphasize the value
 > of building the TJDCR rig from Bill/Dean's exact specifications *first* before getting into 
 > modifications including (but not limited to) PCBs and SMDs. The main point of the TJDCR
 > project is to learn the process of building from scratch, and using a commercially
@@ -45,7 +48,8 @@ And the full rig:
 > moving into a new world where many components of value to radio homebrewers are not 
 > available in through-hole packages. I would encourage everyone get over their
 > fears of surface-mount parts, buy a decent headband magnifier, and start practicing 
-> SMD-homebrew. I've found that by modifying the stock IPC-7351 industry standard 0805 footprints to 
+> SMD-homebrew. I've found that by modifying the stock IPC-7351 0805 footprints provided in
+> KiCad to 
 > extend the pads outward 0.5mm or so you can use a normal soldering iron with a fine tip with 
 > no problems.
 
@@ -72,7 +76,7 @@ of size constraints. The first iteration of the build used NP0 caps and stabilit
 pretty good. I strongly suspect that the compact "hardened" PCB eliminates some of the variability 
 experienced in the Manhattan/Ugly construction so oscillator stability may be less of an 
 issue. I'm doing some more experiments and will provide a write-up on my findings later.
-* I am using T37-6 toroids in a few places where Bill/Dean used T50-6. This requires 
+* I am using T37-6 toroids where Bill/Dean used T50-6. This requires 
 thinner wire and a great deal of winding patience. I think the board can physically handle the T50s 
 if necessary. 
 * I did not put in a trimmer for the top coupling capacitor in the band-pass filter. I'm 
@@ -88,7 +92,8 @@ open this connection and attach the external frequency source to pin 1. This
 is also a good place to connect a frequency counter or to bridge the VFO to the 
 companion transmitter module.
 * There are a few extra parts (C40-C41, R40-R41) in the schematic to support a frequency offset 
-feature needed for a companion CW transmitter module. Don't plug in C40 when you 
+feature that is described in SSDRA (page 218 figure 4). This is used to drive 
+a companion CW transmitter module. Don't plug in C40 when you 
 are building the stock TJDCR.
 
 Tools
@@ -96,10 +101,10 @@ Tools
 
 I am using KiCAD V8 for the schematic capture and PCB layout.
 
-Areas of Experimentation
-========================
+Current Areas of Experimentation
+================================
 
-* The first iterations are using a 4-layer PCB stackup since that provides the best
+* The first iteration used a 4-layer PCB stackup since that provides the best
 RF performance. As it turns out, there is very little routed on the bottom layer and 
 the +9V routing is pretty simple. Plus, at 7 MHz a lot of this probably doesn't matter. I am 
 going to create a 2-layer version of the layout to shave a 
@@ -114,8 +119,6 @@ I'm thinking of reworking the layout a bit to get into the more squarish 90mm x 
 that is needed to fit into a Peppermint Altoids tin. Major QRP street cred possible here.
 * I also like the super-small binocular BN43-2402 ferrite cores and will be testing
 those on the mixer stage in the next iteration.
+* I have a companion CW transmitter module I call "James Madison" which I will 
+document later.
 
-
-
-References
-==========
