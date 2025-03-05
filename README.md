@@ -15,7 +15,16 @@ are a few departures from the recommended construction techniques and part selec
 Importantly, I am using modern construction techniques including a commercial PCB (single board), SMD 
 components (mostly 0805), and the most compact layout I could come up with.
 
+A huge thanks to Scott KQ4AOP for creating and sending me the tuning form 
+needed to build the PTO!
+
+Here's the KiCAD rendering of the board:
+
 ![System Picture](docs/pcb-1.png)
+
+Here's what it looks like in real life:
+
+![System Picture](docs/IMG_1835.jpg)
 
 > [!IMPORTANT]  
 > I know the purists will raise objections, so I would like to emphasize the value
@@ -31,11 +40,6 @@ components (mostly 0805), and the most compact layout I could come up with.
 > SMD-homebrew. I've found that by modifying the stock IPC-7351 industry standard 0805 footprints to 
 > extend the pads outward 0.5mm or so you can use a normal soldering iron with a fine tip with 
 > no problems.
->
-> This all reminds me of a great Thomas Jefferson quote:
->
-> __"I like the dreams of the future better than the history of the past."__
--- Thomas Jefferson
 
 Once the testing is complete I will make the PCB/BOM available for anyone who wants
 to try building it in this style.
@@ -102,6 +106,13 @@ I'm thinking of reworking the layout a bit to get into the more squarish 90mm x 
 that is needed to fit into a Peppermint Altoids tin. Major QRP street cred possible here.
 * I also like the super-small binocular BN43-2402 ferrite cores and will be testing
 those on the mixer stage in the next iteration.
+
+Rig Testing
+===========
+
+![System Picture](docs/IMG_1832.jpg)
+
+
 
 References
 ==========
