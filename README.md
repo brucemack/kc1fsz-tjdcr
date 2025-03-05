@@ -18,6 +18,10 @@ components (mostly 0805), and the most compact layout I could come up with.
 A huge thanks to Scott KQ4AOP for creating and sending me the tuning form 
 needed to build the PTO!
 
+Here's a demo video:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tszAnfJriHQ/0.jpg)](https://www.youtube.com/watch?v=tszAnfJriHQ)
+
 Here's the KiCAD rendering of my board.  The part reference numbers are correct
 in this picture:
 
@@ -36,6 +40,7 @@ Here's the populated board:
 And the full rig:
 
 ![System Picture](docs/IMG_1832.jpg)
+
 
 > [!IMPORTANT]  
 > I know the purists may raise objections, so I would like to emphasize the value
