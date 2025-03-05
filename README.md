@@ -22,9 +22,13 @@ Here's the KiCAD rendering of the board:
 
 ![System Picture](docs/pcb-1.png)
 
-Here's what it looks like in real life:
+Here's what the raw PCB it looks like in real life:
 
 ![System Picture](docs/IMG_1835.jpg)
+
+Here's the populated board:
+
+![System Picture](docs/IMG_183.jpg)
 
 > [!IMPORTANT]  
 > I know the purists will raise objections, so I would like to emphasize the value
