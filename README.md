@@ -30,6 +30,10 @@ Here's the populated board:
 
 ![System Picture](docs/IMG_183.jpg)
 
+And the full rig:
+
+![System Picture](docs/IMG_1832.jpg)
+
 > [!IMPORTANT]  
 > I know the purists will raise objections, so I would like to emphasize the value
 > of building the TJDCR rig from Bill/Dean's exact specifications *first* before getting into 
@@ -110,11 +114,6 @@ I'm thinking of reworking the layout a bit to get into the more squarish 90mm x 
 that is needed to fit into a Peppermint Altoids tin. Major QRP street cred possible here.
 * I also like the super-small binocular BN43-2402 ferrite cores and will be testing
 those on the mixer stage in the next iteration.
-
-Rig Testing
-===========
-
-![System Picture](docs/IMG_1832.jpg)
 
 
 
