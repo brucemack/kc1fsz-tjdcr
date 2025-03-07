@@ -143,11 +143,13 @@ document later.
 Bill Of Materials (2025-03 Version)
 ===================================
 
-This parts list is provided for informational purposes.  I don't have part numbers for a lot of the
+This parts list is provided for informational purposes. I didn't provide part numbers for a lot of the
 generic components because I have a collection of those on hand. I like the 0805 SMD resistor and 
 capacitor "books" since they contain anything you could ever want. The more unique parts can be
-ordered from Digikey using the part numbers provided. The audio transformer is a Mouser-only part.
+ordered from [DigiKey](http://www.digikey.com) using the part numbers provided. The audio transformer is a Mouser-only part.
 The 2.54mm headers are cut from a long header strip.
+
+This parts list follows the Bill/Dean component reference numbering scheme.
 
 | Reference	| Value	| Notes |
 | --------- | ----- | ----- |
