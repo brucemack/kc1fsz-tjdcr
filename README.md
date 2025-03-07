@@ -16,20 +16,20 @@ Importantly, I am using modern construction techniques including a commercial PC
 components (mostly 0805), and the most compact layout I could come up with.
 
 A huge thanks to Scott KQ4AOP for creating and sending me the tuning form 
-needed to build the PTO!
+needed to build the PTO! You also need a brass 1/4-20 bolt around 2.5" long and two 1/4-20 nuts.
 
-Here's a demo video:
+Here's a demo video of the working rig:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tszAnfJriHQ/0.jpg)](https://www.youtube.com/watch?v=tszAnfJriHQ)
 
-Here's the KiCAD rendering of my board.  The part reference numbers are correct
+Here's the KiCad rendering of my board.  The part reference numbers are correct
 in this picture:
 
 ![System Picture](docs/pcb-1.png)
 
-Here's what the raw PCB it looks like in real life. The part reference numbers were
-incorrect in this version of the board, but the KiCad model was later updated to 
-fix this.
+Here's what the raw PCB it looks like in real life. *The part reference numbers didn't 
+match Bill/Dean's schematic in this version of the board* so don't get confused.  The KiCad model was later updated 
+to fix this and the 2025-03 board has the correct reference numbers.
 
 ![System Picture](docs/IMG_1835.jpg)
 
@@ -40,7 +40,6 @@ Here's the populated board:
 And the full rig:
 
 ![System Picture](docs/IMG_1832.jpg)
-
 
 > [!IMPORTANT]  
 > I know the purists may raise objections, so I would like to emphasize the value
@@ -81,7 +80,7 @@ of size constraints. The first iteration of the build used NP0 caps and stabilit
 pretty good. I strongly suspect that the compact "hardened" PCB eliminates some of the variability 
 experienced in the Manhattan/Ugly construction so oscillator stability may be less of an 
 issue. I'm doing some more experiments and will provide a write-up on my findings later.
-* I am using T37-6 toroids where Bill/Dean used T50-6. This requires 
+* I am using T37-6/FT37-43 toroids where Bill/Dean used T50-6/FT50-43. This requires 
 thinner wire and a great deal of winding patience. I think the board can physically handle the T50s 
 if necessary. 
 * I did not put in a trimmer for the top coupling capacitor in the band-pass filter. I'm 
@@ -101,10 +100,23 @@ feature that is described in SSDRA (page 218 figure 4). This is used to drive
 a companion CW transmitter module. Don't plug in C40 when you 
 are building the stock TJDCR.
 
+Layout Notes
+============
+
+* The space under the frequency-determining components of the VFO has been
+cleared on all layers. I've read in a few places that this improves VFO 
+stability by removing the large (temperature-variable) capacitor that is 
+formed between the PCB copper layers.
+* Via fencing is used throughout the board to isolate the VFO and the audio
+amplifier from everything else.
+* THe power/ground connections are intentionally placed close to the power
+stage of the audio amplifier to keep these relatively large currents away
+from the earlier stages.
+
 Tools
 =====
 
-I am using KiCAD V8 for the schematic capture and PCB layout.
+I am using KiCAD V9 for the schematic capture and PCB layout.
 
 Current Areas of Experimentation
 ================================
@@ -127,3 +139,55 @@ those on the mixer stage in the next iteration.
 * I have a companion CW transmitter module I call "James Madison" which I will 
 document later.
 
+Bill Of Materials (2025-03 Version)
+===================================
+
+This parts list is provided for informational purposes.  I don't have part numbers for a lot of the
+generic components because I have a collection of those on hand. I like the 0805 SMD resistor and 
+capacitor "books" since they contain anything you could ever want. The more unique parts can be
+ordered from Digikey using the part numbers provided. The audio transformer is a Mouser-only part.
+The 2.54mm headers are cut from a long header strip.
+
+| Reference	| Value	| Notes |
+| --------- | ----- | ----- |
+| C1,C2 | 660p | NP0 Ceramic 0805 |
+| C3 | 130p | NP0 Ceramic 0805 |
+| C4,C5,C6,C7,C21,C41 | 0.1u | Generic Ceramic 0805 |
+| C8,C14,L2 | 10u | Generic Ceramic 0805 |
+| C9,C11,C13 | 470u 10V | Tantalum in 7343 package, polarized (EX: Kyocera TPSE477K010R0100) |
+| C10,C12,C15 | 47u | Generic Ceramic 0805 |
+| C16 | 0.47u | Generic Ceramic 0805 |
+| C17 | 33u | Generic Ceramic 0805 |
+| C18,C19 | 150p | NP0 Ceramic 0805 |
+| C20 | 10p | NP0 Ceramic 0805 |
+| C40,C181,C191 | 6.5-30pF Trimmer | Manufacturer package (EX: EW Electronics GKG30086-05) |
+| D1 | 8.2V 250mW Zener | SOT23-3 package (EX: onsemi BZX84C8V2LT1G) |
+| D25,D34 | Schottky Diode Array | Pay attention to polarity, SOT23-3 package (EX: Diotec Semi BAT54S) |
+| J1 | Antenna (50 ohms) | SMA connector female through-hole (EX: Amphenol 901-144-8RFX) |
+| J2 | Tuning | Generic 2.54mm header |
+| J3 | Power | Generic 2.54mm header | 
+| J4 | LO Option | Generic 2.54mm header |
+| J5 | Volume | Generic 2.54mm header |
+| J6 | Speaker | Generic 2.54mm header |
+| J7 | TX Offset | Generic 2.54mm header |
+| L11 | 100u | 0805 package (EX: TDK MLZ2012N101LT000) |
+| Q1,Q3,Q5,Q40 | NPN Transistor 3904 | SOT23-3 package (EX: onsemi MMBT3904LT1G) |
+| Q2 | JFET Transistor J310 | SOT23-3 package (EX: onsemi SMMBFJ310LT3G) |
+| Q4 | NPN Transistor 3904 | Generic TO-92 package |
+| R1,R2 | 10k | Generic 0805 |
+| R3 | 3.3k | Generic 0805 |
+| R4,R6,R14 | 100R | Generic 0805 |
+| R5 | 100k | Generic 0805 |
+| R7 | 47R |	Generic 0805 |
+| R8,R12,R16 | 14.7k | Generic 0805 |
+| R9,R13,R17 | 4.7k | Generic 0805 |
+| R10,R18 | 1k | Generic 0805 |
+| R11,R19 | 470R | Generic 0805 |
+| R20 | 220R | Generic 0805 |
+| R40 | 47k | Generic 0805 |
+| R41 | 2.2k | Generic 0805 |
+| T1 | 5:28 Toroid transformer | Wound on T37-6 toroid, #28 wire |
+| T2 | 5:28 Toroid transformer | Wound on T37-6 toroid, #28 wire |
+| T3 | 1:1:1 Toroid transformer (trifilar) | Wound on FT37-43 toroid, #28 wire |
+| T4 | 1:1:1 Toroid transformer (trifilar) | Wound on FT37-43 toroid, #28 wire |
+| T5 | 8R:1k audio transformer| EX: Mouser 42TL013-RC |
