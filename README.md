@@ -13,7 +13,8 @@ stipulated by Bill/Dean, I am resisting all temptations to modify/improve the or
 circuit. However, technically speaking this is not a *pure* TJDCR since there 
 are a few departures from the recommended construction techniques and part selections. 
 Importantly, I am using modern construction techniques including a commercial PCB (single board), SMD 
-components (mostly 0805), and the most compact layout I could come up with.
+components (mostly 0805), and the most compact layout I could come up with. My KiCad model is provided
+here for anyone who wants to experiment with it.
 
 A huge thanks to Scott KQ4AOP for creating and sending me the tuning form 
 needed to build the PTO! You also need a brass 1/4-20 bolt around 2.5" long and two 1/4-20 nuts.
