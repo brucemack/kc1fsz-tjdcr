@@ -156,7 +156,7 @@ This parts list follows the Bill/Dean component reference numbering scheme.
 | C1,C2 | 660p | NP0 Ceramic 0805 |
 | C3 | 130p | NP0 Ceramic 0805 |
 | C4,C5,C6,C7,C21,C41 | 0.1u | Generic Ceramic 0805 |
-| C8,C14,L2 | 10u | Generic Ceramic 0805 |
+| C8,C14 | 10u | Generic Ceramic 0805 |
 | C9,C11,C13 | 470u 10V | Tantalum in 7343 package, polarized (EX: Kyocera TPSE477K010R0100) |
 | C10,C12,C15 | 47u | Generic Ceramic 0805 |
 | C16 | 0.47u | Generic Ceramic 0805 |
@@ -173,6 +173,7 @@ This parts list follows the Bill/Dean component reference numbering scheme.
 | J5 | Volume | Generic 2.54mm header |
 | J6 | Speaker | Generic 2.54mm header |
 | J7 | TX Offset | Generic 2.54mm header |
+| L2 | 10u | 0805 package (EX: Taiyo Yuden LBR2012T100K) |
 | L11 | 100u | 0805 package (EX: TDK MLZ2012N101LT000) |
 | Q1,Q3,Q5,Q40 | NPN Transistor 3904 | SOT23-3 package (EX: onsemi MMBT3904LT1G) |
 | Q2 | JFET Transistor J310 | SOT23-3 package (EX: onsemi SMMBFJ310LT3G) |
